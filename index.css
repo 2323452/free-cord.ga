@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title_main h1{
+    font-size:52px
+}
+
+.title_main a{
+    color:#f2f2f2
+}
+
+.title_main span{
+    font-size:18px;
+    color:#f2f2f2
+}
+
+.title_btn{
+    position:relative;
+    user-select:none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center
+}
+
+.title_main{
+    position:relative;
+    padding:0 0 50px;
+    text-align:center;
+    user-select:none;
+    margin-top: 0px
+}
+
+.title_btn a{
+    text-align:center;
+    margin:20px;
+    padding:15px;
+    position:relative;
+    font-size:18px;
+    color:#f2f2f2;
+    font-weight:400;
+    width:360px;
+    background-color:hsla(0,0%,100%,.1);
+    min-width:200px
+}
+
+nav {
+    display: flex;
+    height: 110px;
+    width: 100%;
+    background: #0f0f10;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    animation: pageShow .3s ease-in-out;
+}
+
+nav .logo {
+    font-size: 45px;
+    font-weight: bold !important;
+    color: #fff;
+}
+
+.logo img {
+    position: absolute;
+    border-radius: 50%;
+    height: 50px;
+    margin-top: -1px;
+    margin-left: -60px;
+    border: 2px solid #5865F2;
+}
+
+#botLogo {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: 2px solid #5865F2;
+}
+
+
+#botLogo {
+    background-color: #5865F2;
+    box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: lighter;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all 0.1s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #fff;
+    background: #1d1e21;
+}
+
+nav ul li a.active:hover {
+    background-color: #5865F2;
+}
+
+nav .menu-btn i {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+nav .openMenu {
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+nav .mainMenu .closeMenu,
+.icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.invite {
+    background-color: #5865F2;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        padding: 0 40px 0 50px;
+    }
+
+    nav .logo {
+        font-size: 30px;
+        font-weight: bold !important;
+        color: #fff;
+        margin-left: 5px;
+    }
+
+    .logo img {
+        position: absolute;
+        border-radius: 50%;
+        height: 40px;
+        margin-top: 2px;
+        margin-left: -45px;
+        border: 2px solid #5865F2;
+    }
+}
+
+@media(max-width: 900px) {
+    nav {
+        padding: 0 40px 0 50px;
+    }
+
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #0F0F10;
+        transition: top .1s ease;
+        display: none;
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 30px;
+
+    }
+
+    nav .openMenu {
+        display: block;
+    }
+
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background: #0f0f10;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    nav ul li {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    nav ul li a {
+        display: block;
+        font-size: 20px;
+}
+
+    nav ul li a.active,
+    nav ul li a:hover {
+        background: none;
+        color: #5865F2;
+    }
+
+    .invite {
+        background-color: #0F0F10;
+    }
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #5865F2;
+}
+
+.btn-secondary {
+    transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #5865F2;
+    box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+}
+
+
+
+@media (max-width: 335px) {
+    .btn {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

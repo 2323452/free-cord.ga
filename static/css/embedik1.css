@@ -1,0 +1,59 @@
+.bottom-tags[data-v-dcc5508a]{margin-top:20px}
+
+.bottom-tags a[data-v-dcc5508a]{display:inline-block;margin-bottom:5px}
+
+.bot[data-v-d7544ca6]{margin-left:auto;margin-right:auto}
+
+.bot-card[data-v-5a149cc0]{height:350px;width:255px;margin-bottom:25px;border-radius:8px;background-color:#292b2f}
+
+.bot-card[data-v-5a149cc0],
+
+.splash[data-v-5a149cc0]{position:relative}
+
+.splash img[data-v-5a149cc0]{border-top-left-radius:8px;border-top-right-radius:8px;width:100%;height:143px}
+
+.splash[data-v-5a149cc0]
+
+:after{position:absolute;left:0;right:0;bottom:0;height:2px;background-image:linear-gradient(180deg,transparent,#292b2f);content:""}
+
+.avatar[data-v-5a149cc0]{margin-left:17px;margin-top:-40px;margin-bottom:5px}
+
+.mask[data-v-5a149cc0],
+
+.avatar[data-v-5a149cc0]{width:60px;height:60px}
+
+.mask[data-v-5a149cc0]{position:relative;z-index:2;background:#292b2f;border-radius:12px}
+
+.mask img[data-v-5a149cc0]{height:60px;width:60px}
+
+.mask-transparent[data-v-5a149cc0]{background:0 0}
+
+.avatar img[data-v-5a149cc0]{border-radius:12px;max-height:100%}
+
+.text-14[data-v-5a149cc0]{font-size:14px;line-height:15px;word-wrap:break-word}
+
+.card-inner[data-v-5a149cc0]{padding-left:17px;padding-right:17px}
+
+.description[data-v-5a149cc0]{padding-top:5px;color:#b9bbbe;max-height:110px}
+
+.description[data-v-5a149cc0],
+
+.singleliner[data-v-5a149cc0]{overflow:hidden;text-overflow:ellipsis}
+
+.singleliner[data-v-5a149cc0]{display:inline-block;max-width:100%;white-space:nowrap}
+
+.bot-name[data-v-5a149cc0]{font-size:16px;line-height:20px;font-weight:600;letter-spacing:.05em;vertical-align:top}
+
+.bot-name a[data-v-5a149cc0]{text-decoration:none;color:#fff}
+
+.bot-actions[data-v-5a149cc0]{position:absolute;bottom:10px;left:0;width:100%}
+
+.bot-actions a[data-v-5a149cc0]{margin-left:5%;margin-right:5%}
+
+.stats[data-v-5a149cc0],
+
+.upvotes[data-v-5a149cc0]{display:inline-block;margin-left:5px;font-size:13px;vertical-align:top}
+
+.tags a[data-v-5a149cc0]{text-decoration:none}
+
+.sponsored[data-v-5a149cc0]{border:1.5px solid #ffac33;border-collapse:collapse;box-shadow:0 0 10px #ffac33}
